@@ -6,12 +6,22 @@
 /*   By: rjaada <rjaada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 16:34:22 by rjaada            #+#    #+#             */
-/*   Updated: 2023/10/16 11:47:16 by rjaada           ###   ########.fr       */
+/*   Updated: 2023/10/19 17:56:27 by rjaada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+// the memmove() function copies len bytes from string src to string dst.
+// The two strings may overlap; the copy is always done in a non-destructive
+// manner.
+// Parameters:
+// - dst: The pointer to the destination array
+// where the content is to be copied.
+// - src: The pointer to the source of data to be copied.
+// - len: The number of bytes to be copied.
+// Returns:
+// A pointer to the destination, which is dst.
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
 	char	*dst1;

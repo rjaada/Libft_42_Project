@@ -6,7 +6,7 @@
 /*   By: rjaada <rjaada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 16:43:41 by rjaada            #+#    #+#             */
-/*   Updated: 2023/10/13 16:43:52 by rjaada           ###   ########.fr       */
+/*   Updated: 2023/10/19 18:15:13 by rjaada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,6 +55,14 @@ static void	ft_free(char **str, int j)
 	free(str);
 }
 
+//The split() function allocates (with malloc(3)) and returns an array
+//of strings obtained by splitting ’s’ using the character ’c’ as a delimiter.
+//The array must be ended by a NULL pointer.
+//Parameters:
+//- s: The string to be split.
+//- c: The delimiter character.
+//Returns:
+//The array of new strings resulting from the split.
 char	**ft_split(char const *s, char c)
 {
 	int		i;

@@ -6,12 +6,14 @@
 /*   By: rjaada <rjaada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 16:48:52 by rjaada            #+#    #+#             */
-/*   Updated: 2023/10/13 16:49:25 by rjaada           ###   ########.fr       */
+/*   Updated: 2023/10/19 18:43:46 by rjaada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+/* Copy the string "src" to the end of "dst" ensuring that the size is "size"
+do not overflow. */
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
 	size_t	dst_len;

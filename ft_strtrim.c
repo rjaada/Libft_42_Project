@@ -6,12 +6,13 @@
 /*   By: rjaada <rjaada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 16:54:18 by rjaada            #+#    #+#             */
-/*   Updated: 2023/10/13 16:55:59 by rjaada           ###   ########.fr       */
+/*   Updated: 2023/10/19 19:12:43 by rjaada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
+// Looks for the string "set" in "s1", and again returns "s1" but trimmed.
 char	*ft_strtrim(char const *s1, char const *set)
 {
 	char	*str;

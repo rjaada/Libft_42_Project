@@ -6,11 +6,14 @@
 /*   By: rjaada <rjaada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 16:56:13 by rjaada            #+#    #+#             */
-/*   Updated: 2023/10/13 16:58:01 by rjaada           ###   ########.fr       */
+/*   Updated: 2023/10/19 19:20:49 by rjaada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+// Allocates (with malloc(3)) and returns a substring from the string ’s’.
+// The substring begins at index ’start’ and is of maximum size ’len’.
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

@@ -6,7 +6,7 @@
 /*   By: rjaada <rjaada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/13 16:17:38 by rjaada            #+#    #+#             */
-/*   Updated: 2023/10/16 11:08:09 by rjaada           ###   ########.fr       */
+/*   Updated: 2023/10/19 19:21:42 by rjaada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,6 @@ typedef struct s_list
 	void			*content;
 	struct s_list	*next;
 }					t_list;
-/*
- * First part of the libc Functions
-*/
 int		ft_isalpha(int c);
 int		ft_isdigit(int c);
 int		ft_isalnum(int c);
@@ -59,10 +56,4 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putendl_fd(char *s, int fd);
-/*
- * Second part of the libc Functions
-*/
-/*
- * BONUS
-*/
 #endif

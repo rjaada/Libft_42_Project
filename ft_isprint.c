@@ -6,13 +6,15 @@
 /*   By: rjaada <rjaada@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/18 10:56:57 by rjaada            #+#    #+#             */
-/*   Updated: 2023/10/13 16:08:28 by rjaada           ###   ########.fr       */
+/*   Updated: 2023/10/19 16:58:16 by rjaada           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isprint(int c)
+int	ft_isprint(int x)
 {
-	return (c >= 32 && c <= 126);
+	if ((x >= 32 && x <= 126))
+		return (1);
+	return (0);
 }
