@@ -6,7 +6,7 @@
 #    By: rjaada <rjaada@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/13 16:17:54 by rjaada            #+#    #+#              #
-#    Updated: 2023/10/19 19:22:09 by rjaada           ###   ########.fr        #
+#    Updated: 2023/10/23 11:59:29 by rjaada           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -57,7 +57,6 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	@ar rc $(NAME) $(OBJ)
 	@echo "$(NAME) created"
-	@ranlib $(NAME)
 	@echo "$(NAME) indexed"
 
 %.o: %.c
